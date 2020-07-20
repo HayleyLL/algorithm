@@ -1,0 +1,27 @@
+{
+  "name": "@hayleyliu/algorithm",
+  "version": "1.0.0",
+  "description": "Common data structure and algorithm implementation in JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HayleyLL/algorithm.git"
+  },
+  "keywords": [
+    "data structure",
+    "algorithm"
+  ],
+  "author": "Hayley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HayleyLL/algorithm/issues"
+  },
+  "homepage": "https://github.com/HayleyLL/algorithm#readme"
+}
