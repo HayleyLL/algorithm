@@ -1,4 +1,7 @@
-const {LinkedList} = require('./lib/list');
-module.exports={
-    LinkedList
+const {LinkedList} = require('./lib/linkedList');
+const {CircularList} = require('./lib/circularLinkedList')
+
+module.exports = {
+    LinkedList,
+    CircularList
 }

@@ -1,5 +1,5 @@
 const assert = require("assert").strict;
-const {LinkedList, iterator} = require('../lib/list')
+const {LinkedList, iterator} = require('../lib/linkedList')
 
 describe('#makeIterator()', function () {
     it('should return a LinkedList iterator', function () {
@@ -188,6 +188,7 @@ describe('LinkedList', function () {
             }
         );
     });
+
     it('implment all', function () {
             let list = new LinkedList([2, 4]);
             assert.deepEqual(list.all(c => c % 2 === 0), true);
